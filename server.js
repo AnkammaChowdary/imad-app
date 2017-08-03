@@ -15,10 +15,10 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/Artical-one',function(req,res){
     res.send("Artical One is respond");
 });
-app.get('/Artical-one',function(req,res){
+app.get('/Artical-Two',function(req,res){
     res.send("Artical Two is respond");
 });
-app.get('/Artical-one',function(req,res){
+app.get('/Artical-Three',function(req,res){
     res.send("Artical Three is respond");
 });
 app.get('/ui/madi.png', function (req, res) {
