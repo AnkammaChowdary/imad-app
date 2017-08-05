@@ -13,7 +13,7 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/Artical-one',function(req,res){
-   res.sendFile(path.join(__dirname, 'ui', 'artical-one.html'));
+   res.sendFile(path.join(__dirname,'artical-one.html'));
 });
 app.get('/Artical-Two',function(req,res){
     res.send("Artical Two is respond");
