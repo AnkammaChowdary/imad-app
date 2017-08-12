@@ -19,10 +19,10 @@ app.get('/Artical-one',function(req,res){
    res.sendFile(path.join(__dirname,'artical-one.html'));
 });
 app.get('/Artical-Two',function(req,res){
-    res.send("Artical Two is respond");
+    res.sendFile(path.join(__dirname,'articalTwo.html'));
 });
 app.get('/Artical-Three',function(req,res){
-    res.send("Artical Three is respond");
+    res.sendFile(path.join(__dirname,'articalThree.html'));
 });
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
