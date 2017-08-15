@@ -4,8 +4,9 @@ var img = document.getElementById('modi');
 img.onclick = function(){
     img.style.marginLeft='15px';
     img.style.marginLeft='100px';
-    function move_up() {
-    document.getElementById('modi').scrollTop += 10;
-  }
+    
 
 };
+function move_up() {
+    document.getElementById('modi').scrollTop += 10;
+  }
