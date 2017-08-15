@@ -7,6 +7,3 @@ img.onclick = function(){
     
 
 };
-function move_up() {
-    document.getElementById('modi').scrollTop += 10;
-  }
