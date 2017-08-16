@@ -4,6 +4,7 @@ var img = document.getElementById('modi');
 img.onclick = function(){
     img.style.marginLeft='15000px';
     img.style.marginLeft='100px';
-    
+img.style.marginLeft='15000px';
+    img.style.marginLeft='100px';
 
 };
