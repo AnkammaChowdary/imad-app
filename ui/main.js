@@ -5,5 +5,5 @@ button.onclick = function() {
   
   counter = counter+1;
   var spam = document.getElementById('count');
-  sapm.innerHTML = counter.toString();
+  spam.innerHTML = counter.toString();
 };
