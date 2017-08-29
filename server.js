@@ -25,6 +25,9 @@ app.get('/Artical-one',function(req,res){
 app.get('/Artical-Two',function(req,res){
     res.sendFile(path.join(__dirname,'articalTwo.html'));
 });
+app.get('/l',function(req,res){
+    res.sendFile(path.join(__dirname,'login.html'));
+});
 app.get('/Artical-Three',function(req,res){
     res.sendFile(path.join(__dirname,'articalThree.html'));
 });
